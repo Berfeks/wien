@@ -1,0 +1,115 @@
+body {
+  background-color: #efefef;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-size: 14px;
+}
+
+.wraper {
+  max-width: 1110px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.nav > li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #333333;
+}
+.bgwithe {
+  background-color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo {
+  display: flex;
+  color: #66c05d;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.logoimg {
+  display: block;
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+  background-image: url(/images/logo.svg);
+}
+
+.headerinf span {
+  font-size: 16px;
+}
+
+.headerinf button {
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid #66c05d;
+  padding: 10px 15px;
+  margin-left: 20px;
+}
+
+.headerbott {
+  padding: 15px 0;
+  background-color: white;
+}
+
+.headerbott .nav {
+  font-size: 16px;
+  margin: 0;
+}
+
+hr {
+  border: none;
+  background-color: #efefef;
+  height: 1px;
+}
+
+.banner {
+  background-image: url(/images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  color: white;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 15px;
+}
+
+.banner p {
+  margin-bottom: 50px;
+  max-width: 315px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+}
